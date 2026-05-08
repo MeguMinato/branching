@@ -1,5 +1,12 @@
 class Main {
     public static void main(String[] args) {
-        System.out.println("Изменение в main перед слиянием");
+        Utils.printSeparator();
+        printMessage();
+        Utils.printSeparator();
+    }
+    
+    static void printMessage() {
+        System.out.println("Это добавлено в ветке dev");
+        System.out.println("Новая строка 1");
     }
 }
