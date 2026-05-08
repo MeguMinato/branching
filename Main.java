@@ -1,6 +1,8 @@
-class Main{
+class Main {
     public static void main(String[] args) {
+        Utils.printSeparator();
         printMessage();
+        Utils.printSeparator();
     }
     
     static void printMessage() {
